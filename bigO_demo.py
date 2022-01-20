@@ -14,9 +14,8 @@ import time
 boxes = [1, 2, 3, 4, 5]
 
 def log_pairs(array):
-    for i in array:
-        for j in array :
-            if i != j:
-                print(i,j)
+    for i in range(len(array)):
+        for j in range(i+1,len(array)) :
+            print(array[i],array[j])
 
 log_pairs(boxes)
