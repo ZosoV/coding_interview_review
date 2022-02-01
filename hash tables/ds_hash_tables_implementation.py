@@ -47,10 +47,7 @@ class HashTable():
         return keys_array
 
     def __str__(self):
-        string = []
-        for address, item in enumerate(self.data):
-            string.append(str(address)+":"+ str(item))
-        return str(string)
+        return str(self.__dict__)
 
 
 myHashTable = HashTable(50)
