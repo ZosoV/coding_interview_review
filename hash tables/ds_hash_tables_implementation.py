@@ -6,6 +6,9 @@ class HashTable():
         # buckets are
         # [['grapes',100000]]
 
+    def __str__(self):
+        return str(self.__dict__)
+
     def _hash(self,key):
         # hash function -> smallest function
         # the function is a loop with few iteration
@@ -45,9 +48,6 @@ class HashTable():
                     keys_array.append(bucket[0][0])
 
         return keys_array
-
-    def __str__(self):
-        return str(self.__dict__)
 
 
 myHashTable = HashTable(50)
