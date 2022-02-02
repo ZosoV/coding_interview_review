@@ -1,6 +1,3 @@
-from ast import Delete
-from os import remove
-
 
 class MyArray():
 
