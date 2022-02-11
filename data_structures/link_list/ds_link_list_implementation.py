@@ -93,6 +93,24 @@ class LinkedList():
             
             self.length -= 1
 
+    def reverse2(self):
+
+        # With recursion
+
+        def reverse_aux(list):
+           
+            if not list['next']:
+                self.head = list
+                return list
+
+            temp = reverse_aux(list['next'])
+            temp['next'] = list
+            list['next'] = None
+            return list
+
+        reverse_aux(self.head)
+        
+
     def reverse(self):
 
     # TODO: Review again
@@ -125,5 +143,5 @@ myLinkedList.insert(100,88)             # 1 -> 10 -> 99 -> 5 -> 16 -> 88
 myLinkedList.remove(3)                  # 1 -> 10 -> 99 -> 16 -> 88
 myLinkedList.remove(3)                  # 1 -> 10 -> 99 -> 88
 
-myLinkedList.reverse()                  # 88 -> 99 -> 10 -> 1
+myLinkedList.reverse2()                  # 88 -> 99 -> 10 -> 1
 print(myLinkedList)
