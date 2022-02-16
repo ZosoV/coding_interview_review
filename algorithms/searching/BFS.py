@@ -1,4 +1,10 @@
+
 # implementation using simple loops
+
+from calendar import c
+import queue
+from turtle import left, right
+
 
 class Node():
     def __init__(self, value) -> None:
@@ -131,6 +137,42 @@ class BinarySearchTree():
 
                 return True
 
+    def BFS(self):
+
+        result_list = []
+        queue_list = [] #priority queue -> O(n) Space complexity
+                        #really width tree -> really complex
+        queue_list.append(self.root)
+
+        while(len(queue_list) != 0):
+            current_node = queue_list.pop(0)    
+            result_list.append(current_node.value)
+            
+            # insert the two children to the queque in order
+            if current_node.left:
+                queue_list.append(current_node.left)
+            if current_node.right:
+                queue_list.append(current_node.right)
+
+            
+
+        return result_list
+
+    def BFS_r(self, queue_list):
+        if len(queue_list) == 0:
+            return []
+
+        current_node = queue_list.pop(0)
+
+        if current_node.left:
+            queue_list.append(current_node.left)
+        if current_node.right:
+            queue_list.append(current_node.right)
+        
+        return [current_node.value] + self.BFS_r(queue_list)
+
+
+
 myBST = BinarySearchTree()
 myBST.insert(9)
 myBST.insert(4)
@@ -143,6 +185,5 @@ myBST.insert(170)
 #  4 20
 #1 6 15 170
 
-print(myBST.traverse(myBST.root))
-print(myBST.lookup(1))
-print(myBST.lookup(3))
+print(myBST.BFS())
+print(myBST.BFS_r([myBST.root]))
