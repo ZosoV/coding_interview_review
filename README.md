@@ -28,7 +28,7 @@
 - ["Sorting"](/algorithms/sorting/questions.py)
 - ["BFS vs DFS"](/algorithms/searching/traversal_quiz1.py)
 - ["Validate Binary Search Tree"](https://leetcode.com/problems/validate-binary-search-tree)
-    - [Solution:](https://www.geeksforgeeks.org a-program-to-check-if-a-binary-tree-is-bst-or-not/)
+    - [Solution:](https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/)
 - [House Robber](https://leetcode.com/problems/house-robber)
 - [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)
 - [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) 

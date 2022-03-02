@@ -1,0 +1,9 @@
+defaultdict(<class 'int'>, 
+
+        {4: defaultdict(<class 'int'>, {'a': 1}), 
+        5: defaultdict(<class 'int'>, {'c': 1}), 
+        2: defaultdict(<class 'int'>, {'b': 1, 'a': 1, 'c': 1}), 
+        6: defaultdict(<class 'int'>, {'a': 1}), 
+        3: defaultdict(<class 'int'>, {'a': 2}), 
+        7: defaultdict(<class 'int'>, {'b': 1}), 
+        1: defaultdict(<class 'int'>, {'a': 4, 'b': 2, 'c': 1})})
