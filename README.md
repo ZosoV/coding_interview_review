@@ -7,7 +7,7 @@ The repository contains three main folders
 - The [algorithms](./algorithms/) and [data_structures](./data_structures/) are my implementations about some common data structures and algorithms in Python. These implementations were made as part of the course: [Master the Coding Interview: Data Structures + Algorithms](https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/).
     - [Course Mind Map](https://coggle.it/diagram/W5u8QkZs6r4sZM3J/t/master-the-interview)
     - [Data Structures and Algorithm MindMap](https://coggle.it/diagram/W5E5tqYlrXvFJPsq/t/master-the-interview-click-here-for-course-link/c25f98c73a03f5b1107cd0e2f4bce29c9d78e31655e55cb0b785d56f0036c9d1)
-- The [exercises](./exercises/) folder includes some exercises that I did. Mainly, I challenged myself to solve at least one coding exercise daily.
+- The [exercises](./exercises/) folder includes some exercises that I did. Mainly, I challenged myself to solve at least one coding exercise daily, following this daily challenge: [Daily Coding Problem](https://www.dailycodingproblem.com/)
 
 ## Cheat Sheets
 
