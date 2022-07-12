@@ -1,4 +1,3 @@
-import time
 
 # nemo = ['dory', 'bruce', 'marlin','nemo', 
 #         'gill', 'bloat', 'nigel', 'squirt',
