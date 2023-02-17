@@ -4,9 +4,8 @@ arr = [1,5, 6, 2, 3, 1, 7]
 # I remember that the idea of this algorithm is to chose a pivot intelligent
 
 # The idea is to place the pivot in the position that it must be in the final
-# sorted array
-
-# Then, split the array and repeated the same process to the next arrays
+# sorted array. In such a way, that the values on the left are less than the pivot
+# and the values on the right are greater than the pivot
 
 # For positioning the pivot in to its correct position in the final sorted array,
 # you need to swap the pivot comparing with each one of the rest until
@@ -68,7 +67,7 @@ def partition(arr, low, high):
   return left_idx
 
 def quick_sort(arr, low,  high):
-  if high > low:
+  if low <= high:
 
     pivot = partition(arr, low, high)
 
