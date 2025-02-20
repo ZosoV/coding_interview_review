@@ -1,0 +1,50 @@
+# Data Structures and Algorithms
+- arrays (dynamic and static)
+    - lookup O(1)
+    - append
+        - static O(n)
+        - dynamic O(1)* amortized O(n) when expanding memory
+    - insert O(n)
+    - remove O(n)
+- hashmaps
+    - lookup, insertion, deletion: O(1) ** O(n) when collision, but highly unprobable
+        - use linked list to deal with collision
+    - space O(n)
+- linked list (double list)
+    - stack (LIFO)
+        - push, pop, peak O(1)
+        - look up O(n)
+        - linked list or dynamic array
+    - queues (FIFO) 
+        - enqueue, dequeue, peak O(1)
+        - look up O(n)
+        - only linked list
+- trees
+    - binary trees: Left child < Parent < Right child.
+        - it's balanced if height is O(log n)
+        - lookup, insert and delete O(log(n))
+    - binary heaps (priority queues): A complete binary tree, with a heap property (parent >= children for max heap).
+        - Max Heap: The largest element is at the root.
+        - Min Heap: The smallest element is at the root.
+        - lookup O(n) traverse
+        - insert O(log(N))
+        - delete O(log(N))
+        - peak O(1)
+- graphs
+    - cyclic, acyclic
+    - weighted, unweighted
+    - directed, undirected
+    - BFS/DFS: O(V + E)
+    - Dijkstra: O((V + E) log V)
+
+# Algorithms
+- Binary search: O(log(n))
+- Quick sort, Merge sort: O(n log(n))
+- Depth First search: O(n) -> both recursive and loop based algorithms
+    - inorder
+    - postorder
+    - preorder
+- Breath First search: O(n)
+- Dynamic Programming (Memoization)
+    - Bottom-Up Approach (Tabulation)
+    - Top-Down Approach (Memoization)

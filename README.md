@@ -15,6 +15,7 @@ Some cheat sheets to build a resume, understand BigO notation, interview process
 
  - [Resumen Cheat Sheet](./resumen_cheat_sheet.md)
  - [BigO Cheat Sheet](./bigO_cheat_sheet.md)
+ - [Data Structure and Algorithms Cheat Sheer](./data_structure_algorithms_cheat_sheet.md)
  - [Interview Cheat Sheet](./interview_cheatsheet.pdf)
  - [Data Structure according languages](data_structures_language_support.png)
 
